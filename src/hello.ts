@@ -3,5 +3,5 @@ interface Options {
 }
 
 export async function hello(options: Options) {
-  return `Hello there, ${options.who}!`;
+  console.log(`Hello there, ${options.who}!`);
 }
